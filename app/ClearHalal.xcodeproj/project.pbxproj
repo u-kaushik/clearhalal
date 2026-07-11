@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E559D7843BA15F2D37F0009 /* ClearHalalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C8D1116C16548844D76C3 /* ClearHalalApp.swift */; };
+		156C5306FA4E007279605B4E /* ClearHalalTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA96EEFCCBD90DEA6F1F6A3 /* ClearHalalTheme.swift */; };
+		26885557F10EA1F4BC1F66D5 /* ScanHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C1F59472E31ADC8200841 /* ScanHistoryStore.swift */; };
+		47447D3E4082939952692EF9 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF05CF0F364A149D17C9065 /* RevenueCat */; };
+		4ADEE6E6DF25770D6BCFA27E /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 352E7BBB408210B9A979F091 /* Products.storekit */; };
+		50F286402E253AF02A50101E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AF58E5DCE56A35AAC8E79 /* HomeView.swift */; };
+		5F6EFD7C27268F9A132A405E /* RevenueCatConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A7A6DF75F9E17B5B55BB2 /* RevenueCatConfig.swift */; };
+		612E434FB0776860A1D18F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD2BB74BE80CB1CB4425856 /* Assets.xcassets */; };
+		6252812785A86BE4F4BB3433 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FEBC19D404D4E34E5A0660 /* HistoryView.swift */; };
+		67393B5DD0743A6935D223CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C57D5A43C9F554D5559E8 /* ContentView.swift */; };
+		6BEAD5D1E51B783BE5D86DE2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F2DCF40DAB76C474E6B2BA /* SettingsView.swift */; };
+		856AF6A450B33D5B73326FFB /* HalalClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B263957744CC4426BC3E4BF /* HalalClassifier.swift */; };
+		93FE3171FB0BDBA41B935134 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972F2061BDE8A0CA48B5E26 /* ResultView.swift */; };
+		AA60E4D6658D25B6D75092AF /* CameraCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F7E296C47FBE40DEC3B2D4 /* CameraCaptureView.swift */; };
+		AACFFF8EB1DE2C90C8AB48E2 /* LabelTextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F251AED49BAC1AC028A57 /* LabelTextRecognizer.swift */; };
+		B0690259DA88EBC7E7F5B47A /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D2FFADB2A8A2F6B92C370E /* OnboardingFlowView.swift */; };
+		BC13FD452E5C00A00D29E2E7 /* ScannerCoachConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE2A26499159160F45FF9BB /* ScannerCoachConfig.swift */; };
+		C02DA006CF9CD2075B6F3FB4 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83545E8C5C129F7B286ADFF4 /* InsightsView.swift */; };
+		C35355083BA7E9B123CA5EE7 /* SubscriptionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B034AD375AE316BC9B242EA6 /* SubscriptionStore.swift */; };
+		D34402814109B3ACF627717F /* HardPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ADE3469846C8155943CB9A /* HardPaywallView.swift */; };
+		DC47E84E8597B3F512EFAB8C /* ScanModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043484C3D149484E8F607B43 /* ScanModels.swift */; };
+		F6CD29F726058614FAF7696D /* ScannerCoachRewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E424F12DE53061BAE7AF08 /* ScannerCoachRewards.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043484C3D149484E8F607B43 /* ScanModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanModels.swift; sourceTree = "<group>"; };
+		19F7E296C47FBE40DEC3B2D4 /* CameraCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCaptureView.swift; sourceTree = "<group>"; };
+		1F5C8D1116C16548844D76C3 /* ClearHalalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearHalalApp.swift; sourceTree = "<group>"; };
+		20E424F12DE53061BAE7AF08 /* ScannerCoachRewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerCoachRewards.swift; sourceTree = "<group>"; };
+		29FEBC19D404D4E34E5A0660 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		352E7BBB408210B9A979F091 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
+		3EE2A26499159160F45FF9BB /* ScannerCoachConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerCoachConfig.swift; sourceTree = "<group>"; };
+		49F2DCF40DAB76C474E6B2BA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4B263957744CC4426BC3E4BF /* HalalClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalalClassifier.swift; sourceTree = "<group>"; };
+		54ADE3469846C8155943CB9A /* HardPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardPaywallView.swift; sourceTree = "<group>"; };
+		5D4AF58E5DCE56A35AAC8E79 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		83545E8C5C129F7B286ADFF4 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		875F251AED49BAC1AC028A57 /* LabelTextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTextRecognizer.swift; sourceTree = "<group>"; };
+		9A3C1F59472E31ADC8200841 /* ScanHistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanHistoryStore.swift; sourceTree = "<group>"; };
+		A972F2061BDE8A0CA48B5E26 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		ABA96EEFCCBD90DEA6F1F6A3 /* ClearHalalTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearHalalTheme.swift; sourceTree = "<group>"; };
+		B034AD375AE316BC9B242EA6 /* SubscriptionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionStore.swift; sourceTree = "<group>"; };
+		D752F6512E94581304420636 /* ClearHalal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearHalal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84C57D5A43C9F554D5559E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDD2BB74BE80CB1CB4425856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF0A7A6DF75F9E17B5B55BB2 /* RevenueCatConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevenueCatConfig.swift; sourceTree = "<group>"; };
+		E2D2FFADB2A8A2F6B92C370E /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F13FAA913EA26716BE9D4FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47447D3E4082939952692EF9 /* RevenueCat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		068DA02DE5DBBA6A3822BC04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D752F6512E94581304420636 /* ClearHalal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20DF4ABA4A83B33403A284F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19F7E296C47FBE40DEC3B2D4 /* CameraCaptureView.swift */,
+				ABA96EEFCCBD90DEA6F1F6A3 /* ClearHalalTheme.swift */,
+				54ADE3469846C8155943CB9A /* HardPaywallView.swift */,
+				29FEBC19D404D4E34E5A0660 /* HistoryView.swift */,
+				5D4AF58E5DCE56A35AAC8E79 /* HomeView.swift */,
+				83545E8C5C129F7B286ADFF4 /* InsightsView.swift */,
+				E2D2FFADB2A8A2F6B92C370E /* OnboardingFlowView.swift */,
+				A972F2061BDE8A0CA48B5E26 /* ResultView.swift */,
+				49F2DCF40DAB76C474E6B2BA /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		354D93542EB8FE74D918DAFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDD2BB74BE80CB1CB4425856 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D61D334D408D482416271A3 /* ScannerCoach */ = {
+			isa = PBXGroup;
+			children = (
+				3EE2A26499159160F45FF9BB /* ScannerCoachConfig.swift */,
+				20E424F12DE53061BAE7AF08 /* ScannerCoachRewards.swift */,
+			);
+			path = ScannerCoach;
+			sourceTree = "<group>";
+		};
+		6F6402BE6B11D187BA09581C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				043484C3D149484E8F607B43 /* ScanModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		76765C28E7357F80F84605E0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3D61D334D408D482416271A3 /* ScannerCoach */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C5ADD797E81ED359B05DD3B6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4B263957744CC4426BC3E4BF /* HalalClassifier.swift */,
+				875F251AED49BAC1AC028A57 /* LabelTextRecognizer.swift */,
+				DF0A7A6DF75F9E17B5B55BB2 /* RevenueCatConfig.swift */,
+				9A3C1F59472E31ADC8200841 /* ScanHistoryStore.swift */,
+				B034AD375AE316BC9B242EA6 /* SubscriptionStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C8758514E3C83095EEEC7243 = {
+			isa = PBXGroup;
+			children = (
+				1F5C8D1116C16548844D76C3 /* ClearHalalApp.swift */,
+				D84C57D5A43C9F554D5559E8 /* ContentView.swift */,
+				352E7BBB408210B9A979F091 /* Products.storekit */,
+				6F6402BE6B11D187BA09581C /* Models */,
+				354D93542EB8FE74D918DAFC /* Resources */,
+				C5ADD797E81ED359B05DD3B6 /* Services */,
+				76765C28E7357F80F84605E0 /* Shared */,
+				20DF4ABA4A83B33403A284F9 /* Views */,
+				068DA02DE5DBBA6A3822BC04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73684B5105D17EB34D358E72 /* ClearHalal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9627F1E07F1E8EEBFC0E9861 /* Build configuration list for PBXNativeTarget "ClearHalal" */;
+			buildPhases = (
+				C752BCA9088EEA8EF4CB6F2F /* Sources */,
+				DA1637BFDF94AF664A572567 /* Resources */,
+				6F13FAA913EA26716BE9D4FC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClearHalal;
+			packageProductDependencies = (
+				5FF05CF0F364A149D17C9065 /* RevenueCat */,
+			);
+			productName = ClearHalal;
+			productReference = D752F6512E94581304420636 /* ClearHalal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61455810317C7D35BE6FE689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					73684B5105D17EB34D358E72 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CCAD823F5E5F8FB91BE2F4EB /* Build configuration list for PBXProject "ClearHalal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C8758514E3C83095EEEC7243;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B1BD202D196957E4FADFCFA4 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 068DA02DE5DBBA6A3822BC04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73684B5105D17EB34D358E72 /* ClearHalal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA1637BFDF94AF664A572567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612E434FB0776860A1D18F0C /* Assets.xcassets in Resources */,
+				4ADEE6E6DF25770D6BCFA27E /* Products.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C752BCA9088EEA8EF4CB6F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA60E4D6658D25B6D75092AF /* CameraCaptureView.swift in Sources */,
+				0E559D7843BA15F2D37F0009 /* ClearHalalApp.swift in Sources */,
+				156C5306FA4E007279605B4E /* ClearHalalTheme.swift in Sources */,
+				67393B5DD0743A6935D223CD /* ContentView.swift in Sources */,
+				856AF6A450B33D5B73326FFB /* HalalClassifier.swift in Sources */,
+				D34402814109B3ACF627717F /* HardPaywallView.swift in Sources */,
+				6252812785A86BE4F4BB3433 /* HistoryView.swift in Sources */,
+				50F286402E253AF02A50101E /* HomeView.swift in Sources */,
+				C02DA006CF9CD2075B6F3FB4 /* InsightsView.swift in Sources */,
+				AACFFF8EB1DE2C90C8AB48E2 /* LabelTextRecognizer.swift in Sources */,
+				B0690259DA88EBC7E7F5B47A /* OnboardingFlowView.swift in Sources */,
+				93FE3171FB0BDBA41B935134 /* ResultView.swift in Sources */,
+				5F6EFD7C27268F9A132A405E /* RevenueCatConfig.swift in Sources */,
+				26885557F10EA1F4BC1F66D5 /* ScanHistoryStore.swift in Sources */,
+				DC47E84E8597B3F512EFAB8C /* ScanModels.swift in Sources */,
+				BC13FD452E5C00A00D29E2E7 /* ScannerCoachConfig.swift in Sources */,
+				F6CD29F726058614FAF7696D /* ScannerCoachRewards.swift in Sources */,
+				6BEAD5D1E51B783BE5D86DE2 /* SettingsView.swift in Sources */,
+				C35355083BA7E9B123CA5EE7 /* SubscriptionStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2BBC6CE7FA7A42237A09534D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 43HDRPSGZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_CLASS = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ClearHalal uses the camera to scan food labels and ingredient lists.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ClearHalal accesses your photo library when you choose a label photo to check.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarshkaushik.clearhalal;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55DD9DEF978D3198CD58C33A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 43HDRPSGZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_CLASS = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ClearHalal uses the camera to scan food labels and ingredient lists.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ClearHalal accesses your photo library when you choose a label photo to check.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarshkaushik.clearhalal;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58E5469119AFF9491160437A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = T932Z73585;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		A37450139914951BE4CF607F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = T932Z73585;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9627F1E07F1E8EEBFC0E9861 /* Build configuration list for PBXNativeTarget "ClearHalal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBC6CE7FA7A42237A09534D /* Debug */,
+				55DD9DEF978D3198CD58C33A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCAD823F5E5F8FB91BE2F4EB /* Build configuration list for PBXProject "ClearHalal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37450139914951BE4CF607F /* Debug */,
+				58E5469119AFF9491160437A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B1BD202D196957E4FADFCFA4 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5FF05CF0F364A149D17C9065 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1BD202D196957E4FADFCFA4 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 61455810317C7D35BE6FE689 /* Project object */;
+}

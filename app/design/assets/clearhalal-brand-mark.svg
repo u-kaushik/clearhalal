@@ -1,0 +1,62 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="petal" d="
+      M512 238
+      C586 239 611 308 596 369
+      C581 430 538 464 519 493
+      C516 498 508 498 505 493
+      C486 464 443 430 428 369
+      C413 308 438 239 512 238Z"/>
+    <mask id="flowerCutouts">
+      <rect width="1024" height="1024" fill="white"/>
+      <g stroke="black" stroke-width="18" stroke-linecap="round">
+        <path d="M512 353V480"/>
+        <path d="M512 544V671"/>
+        <path d="M404 414L482 459"/>
+        <path d="M542 565L620 610"/>
+        <path d="M620 414L542 459"/>
+        <path d="M482 565L404 610"/>
+      </g>
+      <circle cx="512" cy="512" r="24" fill="black"/>
+    </mask>
+  </defs>
+
+  <path
+    d="
+      M512 171
+      C547 171 574 206 608 215
+      C642 224 681 203 713 220
+      C745 237 752 282 779 306
+      C807 330 851 330 869 363
+      C887 396 864 435 873 470
+      C882 504 916 532 908 567
+      C900 601 860 619 844 650
+      C827 681 839 724 813 750
+      C787 776 744 764 713 781
+      C681 797 663 837 629 845
+      C594 853 566 819 512 819
+      C458 819 430 853 395 845
+      C361 837 343 797 311 781
+      C280 764 237 776 211 750
+      C185 724 197 681 180 650
+      C164 619 124 601 116 567
+      C108 532 142 504 151 470
+      C160 435 137 396 155 363
+      C173 330 217 330 245 306
+      C272 282 279 237 311 220
+      C343 203 382 224 416 215
+      C450 206 477 171 512 171Z"
+    stroke="#0B2F20"
+    stroke-width="31"
+    stroke-linejoin="round"
+  />
+
+  <g fill="#0B2F20" mask="url(#flowerCutouts)">
+    <use href="#petal"/>
+    <use href="#petal" transform="rotate(60 512 512)"/>
+    <use href="#petal" transform="rotate(120 512 512)"/>
+    <use href="#petal" transform="rotate(180 512 512)"/>
+    <use href="#petal" transform="rotate(240 512 512)"/>
+    <use href="#petal" transform="rotate(300 512 512)"/>
+  </g>
+</svg>
