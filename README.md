@@ -1,14 +1,24 @@
 # ClearHalal
 
-**A native iOS food-label companion that explains halal ingredient concerns instead of returning a black-box score.**
+**An end-to-end iOS product engagement for Glenmont Circle: a food-label companion that explains halal ingredient concerns instead of returning a black-box score.**
 
 [Try the interactive web demo](https://u-kaushik.github.io/clearhalal/) · [Explore the SwiftUI source](app/) · [View the product flow](#product-preview)
 
 ![ClearHalal submitted iOS app home screen](assets/app_screens/home.png)
 
-## Why I built it
+## Project context
 
-Ingredient labels are difficult to interpret: additives can have plant or animal sources, certifications vary, and a simple yes/no answer can hide important uncertainty. ClearHalal makes the reasoning visible and gives the user a practical next step.
+Glenmont Circle commissioned ClearHalal from an initial product brief through App Store submission. I worked as the independent product designer and iOS engineer responsible for the complete delivery: product definition, UX and visual identity, interaction design, SwiftUI implementation, on-device scanning, monetisation integration, launch assets, and supporting web experience.
+
+The brief addressed a difficult product-design problem: additives can have plant or animal sources, certifications vary, and a simple yes/no answer can hide important uncertainty. My approach made the reasoning visible and gave users a practical next step without presenting the app as a certification authority.
+
+## My contribution
+
+- Took the studio brief from early product definition to a submitted iOS application.
+- Designed the brand system, information architecture, onboarding, scanning flow, result states, history, progress, settings, and subscription experience.
+- Built the native SwiftUI application and its Vision-based, on-device label-recognition flow.
+- Developed the explainable classification model and cautious green, orange, and red decision language.
+- Produced the App Store presentation, product website, interactive portfolio demo, and release documentation.
 
 ## Product preview
 
@@ -54,7 +64,7 @@ Key code: [`HalalClassifier.swift`](app/Services/HalalClassifier.swift), [`Label
 
 ## Scope and responsible use
 
-ClearHalal is a portfolio project and decision-support tool. It does not replace certification bodies, manufacturers, or qualified religious guidance. Results only reflect text visible in the supplied label.
+This repository is a portfolio presentation of work delivered for Glenmont Circle. ClearHalal is a decision-support tool; it does not replace certification bodies, manufacturers, or qualified religious guidance. Results only reflect text visible in the supplied label.
 
 ## License
 
