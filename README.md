@@ -4,7 +4,7 @@
 
 [Try the interactive web demo](https://u-kaushik.github.io/clearhalal/) · [Explore the SwiftUI source](app/) · [View the product flow](#product-preview)
 
-![ClearHalal app screens](assets/app_store_screenshots/store-template/01-know-whats-inside.png)
+![ClearHalal submitted iOS app home screen](assets/app_screens/home.png)
 
 ## Why I built it
 
@@ -22,7 +22,7 @@ The [browser demo](https://u-kaushik.github.io/clearhalal/) is intentionally det
 - **Orange — Uncertain:** gelatin, E471, or flavourings require source confirmation.
 - **Red — Avoid:** an explicitly pork-derived ingredient is present.
 
-![Ingredient concern explanation](assets/app_store_screenshots/store-template/03-understand-the-why.png)
+![ClearHalal submitted iOS ingredient concern result](assets/app_screens/result.png)
 
 ## Engineering highlights
 
