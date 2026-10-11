@@ -44,6 +44,9 @@ final class SubscriptionStore: NSObject, ObservableObject {
         hasConfiguredRevenueCat = true
         Purchases.logLevel = .warn
         Purchases.configure(withAPIKey: RevenueCatConfig.publicSDKKey)
+        // Send Apple's standard ad-attribution token so RevenueCat can link
+        // trials and purchases to the campaign that acquired the customer.
+        Purchases.shared.attribution.enableAdServicesAttributionTokenCollection()
         Purchases.shared.delegate = self
         loadOfferings()
         refreshCustomerInfo()
